@@ -10,3 +10,4 @@ Tasks:
 These are the problems I remember we talked about in our last meeting. 
 Fill free to add any suggestions or comments here. 
 Ron.
+     3. We need to write a list of possible reasons for errors and ways to solve them.
