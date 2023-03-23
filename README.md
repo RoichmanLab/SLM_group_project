@@ -37,28 +37,28 @@ Before starting anything - mane sure that your system is aligned!
 ### Codes
 * Open a directory with the following files:
 1.  `SLM_Screen.mat` - For now (20230323) this is the solution for our code to correctly detect the SLM screen - will be fixed. - check if it is the correct number.
-2. 'wavelength.mat'
-3. 'dim.mat'
-4. 'grid_for_532.mat'
-5. 'circle_for_532.mat'
+2. `wavelength.mat`
+3. `dim.mat`
+4. `grid_for_532.mat`
+5. `circle_for_532.mat`
 * Open a directory with the following code files (It can be the same directory)
-6. 'calibrate.m'
-7. 'ccdcenter.m'
-8. 'dsphase.m'
-9. 'fastphase.m'
-10. 'fullscreen.m'
-11. 'load_calibration.m'
-12. 'script_calibrate.m' 
-13.  'vortex.m'
-14.  'blank_slm.m'
+6. `calibrate.m`
+7. `ccdcenter.m`
+8. `dsphase.m`
+9. `fastphase.m`
+10. `fullscreen.m`
+11. `load_calibration.m`
+12. `script_calibrate.m` 
+13.  `vortex.m`
+14.  `blank_slm.m`
 #### User necessary modifications
 ##### Will not be necessary after the code future modifications. 
 Before running the code the user must do some changes in the current codes and files:
-1. 'SLM_Screen.mat' - change it to the correct number.
-2. 'wavelength.mat' - Check if it is the correct number. 
-3. 'dim.mat' - The resolution of your SLM device - shuold be 600 x 800
-4. 'grid_for_532.mat' - change it to the correct wavelength, calculate the hologram using 'GridGen.m' if needed.
-5. 'circle_for_532.mat' - change it to the correct wavelength, calculate the hologram using 'CircGen.m' if needed.
-6. 'calibrate.m' - Find the line with load function and change the path to your directory.
-7. 'ccdcal.m' - Find the line with load function and change the path to your directory.
-8. 'ccdcenter.m' - Find the line with load function and change the path to your directory.
+1. `SLM_Screen.mat` - change it to the correct number.
+2. `wavelength.mat` - Check if it is the correct number. 
+3. `dim.mat` - The resolution of your SLM device - shuold be 600 x 800
+4. `grid_for_532.mat` - change it to the correct wavelength, calculate the hologram using 'GridGen.m' if needed.
+5. `circle_for_532.mat` - change it to the correct wavelength, calculate the hologram using 'CircGen.m' if needed.
+6. `calibrate.m` - Find the line with load function and change the path to your directory.
+7. `ccdcal.m` - Find the line with load function and change the path to your directory.
+8. `ccdcenter.m` - Find the line with load function and change the path to your directory.
