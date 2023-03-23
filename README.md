@@ -36,7 +36,7 @@ Before starting anything - mane sure that your system is aligned!
 
 ### Codes
 * Open a directory with the following files:
-1. 'SLM_Screen.mat' - For now (20230323) this is the solution for our code to correctly detect the SLM screen - will be fixed. - check if it is the correct number.
+1.  `SLM_Screen.mat` - For now (20230323) this is the solution for our code to correctly detect the SLM screen - will be fixed. - check if it is the correct number.
 2. 'wavelength.mat'
 3. 'dim.mat'
 4. 'grid_for_532.mat'
