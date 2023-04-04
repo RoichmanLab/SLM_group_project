@@ -8,11 +8,15 @@ Currently (20230305), to use the code, the user needs to proveid "SLM_Screen" be
 Currently (20230305), to use the code, all the information (calibration files and precalculated holograms) must be saved on the user computer and the user needs to provide the correct path in order to run the code.  
 ### Tasks:
 1. We need to improve the code and maybe add a line that identifies the device number.
+1.1. we need to make lib path updated from the git
+
 2. We need to save the calibration files and other information on a cloud and add the correct path to the codes or maybe find a better way to do it.   
 These are the problems I remember we talked about in our last meeting. 
 Fill free to add any suggestions or comments here. 
 Ron.
 3. We need to write a list of possible reasons for errors and ways to solve them.
+4. We need to aoutomatically detect the number of the slm screen.
+5. Archive the older versions of the codes.
 
 ## Manual - Instaling SLM System
 ### Alignment
@@ -52,6 +56,7 @@ Before starting anything - mane sure that your system is aligned!
 13.  `vortex.m`
 14.  `blank_slm.m`
 #### User necessary modifications
+
 ##### Will not be necessary after the code future modifications. 
 Before running the code the user must do some changes in the current codes and files:
 1. `SLM_Screen.mat` - change it to the correct number.
